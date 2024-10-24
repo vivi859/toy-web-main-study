@@ -41,6 +41,7 @@ func main() {
 	cat4.Colors = "指针猫咪颜色花"
 
 	fmt.Println(cat5)
+	fmt.Println(&cat5)
 	fmt.Println(cat4)
 	fmt.Println(*cat4)
 	fmt.Println(cat2)
