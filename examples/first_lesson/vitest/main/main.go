@@ -2,8 +2,8 @@ package main
 
 import (
 	"errors"
-	//"util"
 	"fmt"
+	"geektime/toy-web/examples/first_lesson/vitest/util"
 	"strconv"
 	"strings"
 	"sync"
@@ -329,8 +329,8 @@ func main() {
 	//Prints(9)
 	//nine()
 
-	//result := util.Math(2.2, 2, '*')
-	//fmt.Printf("result=%v \n", result)
+	result := util.Math(2.2, 2, '*')
+	fmt.Printf("result=%v \n", result)
 
 }
 
